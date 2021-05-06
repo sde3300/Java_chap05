@@ -3,7 +3,7 @@ package java_chap05;
 public class ArrayCreateByNewEx {
 
 	public static void main(String[] args) {
-		int[] arr1 = new int[3]; 
+		int[] arr1 = new int[3]; // 정수 타입의 빈 배열을 선언 시 배열의 요소를 0으로 초기화 함
 		
 		for (int i=0; i<3; i++) {
 			System.out.println("arr1[" + i + "] : " + arr1[i]);
